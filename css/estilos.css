@@ -14,6 +14,7 @@ valores*/
 
 body{
     font-family: 'sue ellen francisco', sans-serif;
+    margin: 0;
 }
 
 h1,
@@ -32,6 +33,8 @@ h1 {
     line-height: 1.5;
     letter-spacing:-0.2;
     color: white;
+    margin: 100px 150px 70px 30px;
+    /* margin:top right bottom left; */
     /* text-transform: capitalize;
     text-decoration: underline; */
 }
@@ -50,11 +53,24 @@ h1 strong{
     background-position-x:right ;
 }
 
+.portfolio{
+    background-color: #fafafa;
+}
+
 .project{
-    border-top: 10px solid red;
+    /* border-top: 10px solid red;
     border-right: 10px solid green;
     border-left: 10px solid orange;
-    border-bottom: 10px solid pink;
+    border-bottom: 10px solid pink; */
+    /* border-color: red;
+    border-width: 15px;
+    border-style: dashed; */
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
 }
 
 .project-details{ 
@@ -76,3 +92,47 @@ color:white ;
  color: white;
  text-decoration: none;
 }
+
+/* .cajas{
+    display: flex;
+}
+
+.verde{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+
+.rojo{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px; */
+
+    /* margin: 10px 100px 100px 10px; */
+
+    /* margin: 10px 100px; */
+
+    /* para dar margenes a todo */
+    /* margin: 30px; */
+
+    /* para centrar un elemento que tenga ancho fijo y sea display blok  */
+    /* margin: 0 auto; */
+
+/* } */
+
+.azul{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.negro{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+} */
