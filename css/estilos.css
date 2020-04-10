@@ -13,7 +13,7 @@ valores*/
 
 
 body{
-    font-family: 'sue ellen francisco', sans-serif;
+    font-family:  sans-serif;
     margin: 0;
 }
 
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6{
-    font-family: 'suez one', sans-serif;
+    font-family:  sans-serif;
     font-weight: normal;
     /* font-style: italic; */
     
@@ -33,28 +33,44 @@ h1 {
     line-height: 1.5;
     letter-spacing:-0.2;
     color: white;
-    margin: 100px 150px 70px 30px;
+    margin: 0;
+    /* margin: 100px 150px 70px 30px; */
     /* margin:top right bottom left; */
     /* text-transform: capitalize;
     text-decoration: underline; */
 }
 
 h1 strong{
-    color: thistle;
+    color: #026fff;
+
+}
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family:  sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+
 
 }
 
 .hero {
-    height: 300px;
+    height: 400px;
+    /* height: auto; */
     background-image: url('../img/medicina1.jpg');
     background-color:  #741e5f;
-    background-size: 500px 300px;
+    /* background-size: cover; */
+    background-size: 700px 500px;
     background-repeat: no-repeat;
     background-position-x:right ;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio{
     background-color: #fafafa;
+    padding: 20px ;
 }
 
 .project{
@@ -67,12 +83,39 @@ h1 strong{
     border-style: dashed; */
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 10px;
+    /* margin: 10px; */
     margin-bottom: 15px;
     padding: 20px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
 }
+.project-course,
+.project-date,
+.project-url{
 
+    margin: 10px 0;
+}
+.project-description{
+    font-size:20px ;
+
+}
+.project strong{
+    font-family:  sans-serif;
+}
+/* .project-date{ 
+     margin: 10px0;
+
+} */
+
+.project-title{
+
+    font-size:30px ;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
 .project-details{ 
     
     width: 500px ;
@@ -86,9 +129,11 @@ h1 strong{
 
 .header{
 background-color: #741e5f;
+/* background-image: url('../img/medicina1.jpg'); */
+
 color:white ;
 display: flex;
-/* align-items: center; */
+align-items: center;
 height:90px;
 justify-content: space-between;
 
@@ -189,5 +234,126 @@ figure {
     height: 100px;
     background-color: black;
 }  */
+
+.footer-image{
+    width: 29px;
+}
+
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+
+}
+
+.footer img{
+    vertical-align: middle;
+    border-radius: 3px;
+}
+.footer a{
+    color: white;
+    /* text-decoration: none; */
+}
+.event-list{
+    display: flex;
+}
+.event-list-title{
+  margin-left: 20px;
+}
+.event{
+    /* border: 1px solid; */
+    margin:10px ;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4fbff ;
+    /* background: red ; */
+
+}
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+.event-detail{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center ;
+}
+.event-description{
+  text-align: left;
+}
+.event-url{
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  color:#056fff ;
+  border-radius:5px ;
+
+}
+.contact{
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.social{
+
+}
+.social-link{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  background-size: 40px 40px;
+}
+.social-link.twitter{
+  background-image:url('../img/twitter.png') ;
+  
+}
+.social-link.facebook{
+  background-image:url('../img/facebook.png') ;
+}
+.social-link.github{
+  background-image:url('../img/github.png') ;
+}
+.social-link.instagram{
+  background-image:url('../img/instagram.png') ;
+}
+.form-email input{
+/* border-color: gray;
+border-style: solid; */
+border: 1px solid gray;
+border-radius: 5px;
+padding:10px 20px 10px 25px;
+background-image: url('../img/mail-48.png') ;
+background-size: 15px 15px;
+background-repeat: no-repeat;
+background-position-y:center ;
+background-position-x:5px;
+}
+.form-email button{
+  display: block;
+  margin: 10px;
+  background: transparent;
+  color: white;
+  padding: 10px 0 px;
+  border-radius: 5px;
+  width: 100px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+.form-email h3{
+  font-family:  sans-serif;
+}
 
 
