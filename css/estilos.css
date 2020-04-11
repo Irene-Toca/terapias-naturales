@@ -58,15 +58,20 @@ h2{
 .hero {
     height: 400px;
     /* height: auto; */
-    background-image: url('../img/medicina1.jpg');
+    /* background-image: url('../img/medicina1.jpg'); */
     background-color:  #741e5f;
     /* background-size: cover; */
-    background-size: 700px 500px;
+    /* background-size: 700px 500px;
     background-repeat: no-repeat;
-    background-position-x:right ;
+    background-position-x:right ; */
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+.hero-image{
+  object-fit: cover;
+}
+
 
 .portfolio{
     background-color: #fafafa;
@@ -258,6 +263,7 @@ figure {
 }
 .event-list{
     display: flex;
+   flex-wrap: wrap; 
 }
 .event-list-title{
   margin-left: 20px;
@@ -306,9 +312,9 @@ figure {
   justify-content: space-between;
 
 }
-.social{
+/* .social{
 
-}
+} */
 .social-link{
   display: inline-block;
   width: 40px;
@@ -354,6 +360,16 @@ background-position-x:5px;
 }
 .form-email h3{
   font-family:  sans-serif;
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+
 }
 
 
